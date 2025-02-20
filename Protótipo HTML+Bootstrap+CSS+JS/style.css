@@ -7,6 +7,7 @@
     --cor-escuro0: #313131;
     --cor-escuro1: #1f1f1f;
     --cor-escuro2: #181818;
+    --cor-escuro3: rgb(23, 23, 23);
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
@@ -23,7 +24,7 @@
 /*Body =============================================================================*/
 
 body{
-    background-color: var(--cor-escuro1) !important;
+    background-color: var(--cor-escuro3) !important;
 }
 
 /*Header*/
@@ -71,5 +72,35 @@ header{
   .nav-item a:hover, 
   .nav-item a.ativo{
     background: var(--cor-escuro0);
-    color: rgb(255, 255, 255);
   }
+
+/*Main*/
+main{
+    padding-top: 100px;
+}
+
+section{
+    background-color: var(--cor-escuro1) !important;
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 50px;
+    border-radius: 20px;
+    color: var(--cor-claro1);
+    align-items: center;
+    vertical-align: middle;
+}
+
+section h1{
+    font: bolder 2em Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+section h2{
+    font: bold 1.8em Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+section img{
+    width: 100%;
+    border-radius: 50%;
+}
