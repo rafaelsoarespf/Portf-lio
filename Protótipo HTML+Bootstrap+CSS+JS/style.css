@@ -1,0 +1,22 @@
+/*Configurações =============================================================================*/
+@charset "UTF-8";
+
+/*Variáveis------------*/
+:root{
+    --cor-claro1: #c7c7c7; 
+    --cor-escuro0: #313131;
+    --cor-escuro1: #1f1f1f;
+    --cor-escuro2: #181818;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'idroid', cursive;
+}
+
+/*Tirando padding e margin*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Body =============================================================================*/
