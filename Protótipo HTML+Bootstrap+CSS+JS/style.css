@@ -82,37 +82,71 @@ header{
 
 /*Main======================================================================*/
 main{
-    padding: 100px 10px 0px 10px;
+  padding: 0px 10px 0px 10px;
+  margin: auto;
 }
 
-section{   
-    max-width: 1160px;
-    height: 100vh;  
-    color: var(--colorTitle);
-    align-items: center;
+
+section{
+  height: 100vh;  
+  color: var(--colorTitle);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main .box{
+  max-width: 1200px;
   background-color: var(--colorBox) !important;
-  margin: auto;
-  padding: 50px;
-  border-radius: 20px;
+  
+  padding: 50px 25px;
+  border-radius: 12px;
+
+  display: flex;
   align-items: center;
-  vertical-align: middle;
+  justify-content: center;
   
 }
 
 section h1{
-    font: bolder 2em Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
+  font: bolder 2em var(--fonte-padrao);
+  margin-bottom: 20px;
 }
 
 section h2{
-    font: bold 1.8em Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
+  font: bold 1.6em var(--fonte-padrao);
+  margin-bottom: 18px;
 }
 
-section img{
-    width: 100%;
-    border-radius: 50%;
+section p{
+  font: normal 1em var(--fonte-padrao);
+  color: var(--colorText);
+}
+
+/*Apresentação-------------*/
+
+#box-apresentação img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+/*-------------*/
+
+#box-habilidades .box-habilidades-item{
+  margin: 10px 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#box-habilidades h1{
+  margin: 10px 0px 20px 0px;
+}
+
+#box-habilidades img{
+  margin: 15px 0px;
+}
+
+#box-habilidades .box-habilidades-item{
+  background-color: var(--colorBox2) ;
 }
