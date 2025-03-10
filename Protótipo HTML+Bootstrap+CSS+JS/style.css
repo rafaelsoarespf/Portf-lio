@@ -78,6 +78,8 @@ header{
   .nav-item a:hover, 
   .nav-item a.ativo{
     background: var(--colorBox3);
+    color: var(--colorCuston);
+    font-weight: bolder;
   }
 
 /*Main======================================================================*/
@@ -120,7 +122,7 @@ section h2{
 }
 
 section p{
-  font: normal 1em var(--fonte-padrao);
+  font: normal 1.1em var(--fonte-padrao);
   color: var(--colorText);
 }
 
@@ -131,7 +133,8 @@ section p{
   border-radius: 50%;
 }
 
-/*-------------*/
+
+/*Habilidades-------------*/
 
 #box-habilidades .box-habilidades-item{
   margin: 10px 5px;
@@ -150,3 +153,8 @@ section p{
 #box-habilidades .box-habilidades-item{
   background-color: var(--colorBox2) ;
 }
+
+
+/*Projetos-------------*/
+
+
