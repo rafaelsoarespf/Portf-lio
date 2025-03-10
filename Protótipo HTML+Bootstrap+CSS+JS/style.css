@@ -3,11 +3,17 @@
 
 /*Variáveis------------*/
 :root{
-    --cor-claro1: #c7c7c7; 
-    --cor-escuro0: #313131;
-    --cor-escuro1: #1f1f1f;
-    --cor-escuro2: #181818;
-    --cor-escuro3: rgb(23, 23, 23);
+
+  --colorBackground: #191919;
+  --colorBox: #202020;
+  --colorBox2: #2c2c2c;
+  --colorBox3: #383838;
+
+  --colorTitle: #d4d4d4;
+  --colorText: #9b9b9b;
+  --colorTextStrong: #d4d4d4;
+  
+  --colorCuston: #d4d4d4;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
@@ -24,10 +30,10 @@
 /*Body =============================================================================*/
 
 body{
-    background-color: var(--cor-escuro3) !important;
+    background-color: var(--colorBackground) !important;
 }
 
-/*Header*/
+/*Header=================================================================*/
 
 header{
     position: fixed;
@@ -41,7 +47,7 @@ header{
   }
   
   header .icon{
-    color: var(--cor-claro1);
+    color: var(--colorTitle);
     font-weight: 700;
     text-decoration: none;
     font-size: 30px;
@@ -65,29 +71,35 @@ header{
   .nav-item a{
     text-decoration: none;
     padding: 6px 15px;
-    color: var(--cor-claro1);
+    color: var(--colorText);
     border-radius: 20px;
   }
   
   .nav-item a:hover, 
   .nav-item a.ativo{
-    background: var(--cor-escuro0);
+    background: var(--colorBox3);
   }
 
-/*Main*/
+/*Main======================================================================*/
 main{
     padding: 100px 10px 0px 10px;
 }
 
-section{
-    background-color: var(--cor-escuro1) !important;
+section{   
     max-width: 1160px;
-    margin: 80px auto;
-    padding: 50px;
-    border-radius: 20px;
-    color: var(--cor-claro1);
+    height: 100vh;  
+    color: var(--colorTitle);
     align-items: center;
-    vertical-align: middle;
+}
+
+main .box{
+  background-color: var(--colorBox) !important;
+  margin: auto;
+  padding: 50px;
+  border-radius: 20px;
+  align-items: center;
+  vertical-align: middle;
+  
 }
 
 section h1{
