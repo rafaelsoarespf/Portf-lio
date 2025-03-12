@@ -137,6 +137,26 @@ section strong{
   border-radius: 50%;
 }
 
+#mensagem{
+  
+  width: 600px;
+}
+
+#mensagem::after{
+  content: '|';
+  margin-left: 5px;
+  opacity: 1;
+  animation: piscar_barra_de_mensagem .7s infinite;
+}
+
+@keyframes piscar_barra_de_mensagem {
+  0%, 100%{
+    opacity: 1;}
+  50%{
+    opacity: 0;}
+}
+
+
 
 /*Habilidades-------------*/
 
