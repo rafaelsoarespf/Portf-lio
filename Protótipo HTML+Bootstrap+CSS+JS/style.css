@@ -4,6 +4,25 @@
 /*Variáveis------------*/
 :root{
 
+  --colorBackground: #ffffff;
+  --colorBox: #f9f9f9;
+  --colorBox2: #f0f0f0;
+  --colorBox3: #dddddd;
+
+  --colorTitle: #37352f;
+  --colorText: #474747;
+  --colorTextStrong: #37352f;
+  
+  --colorCuston: #37352f;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'idroid', cursive;
+}
+
+/*Variáveis------------*/
+.dark-mode:root{
+
   --colorBackground: #191919;
   --colorBox: #202020;
   --colorBox2: #2c2c2c;
@@ -216,3 +235,5 @@ section strong{
 }
 
 /*Footer-------------*/
+
+
