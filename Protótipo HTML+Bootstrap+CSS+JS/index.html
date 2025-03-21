@@ -29,7 +29,15 @@
                 <li class="nav-item"><a href="#habilidades">Habilidades</a></li>
                 <li class="nav-item"><a href="#projetos">Projetos</a></li>
                 <li class="nav-item"><a href="#certificados">Certificados</a></li>
-                <li class="nav-item"><input type="checkbox" id="switch">Dark Mode</li>
+                
+                <!--Opções de cores-->
+                <li>
+                    <select class="form-select" id="switch">
+                        <option value="light" onclick="alterarCor('light')">Claro</option>
+                        <option value="dark" onclick="alterarCor('dark')">Escuro</option>
+                    </select>
+                </li>
+
             </ul>
         </nav>
     </header>

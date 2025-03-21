@@ -20,10 +20,50 @@
     --fonte-android: 'idroid', cursive;
 }
 
+
+
+
+.light-mode:root{
+
+  --colorBackground: #ffffff;
+  --colorBox: #f9f9f9;
+  --colorBox2: #f0f0f0;
+  --colorBox3: #dddddd;
+
+  --colorTitle: #37352f;
+  --colorText: #474747;
+  --colorTextStrong: #37352f;
+  
+  --colorCuston: #37352f;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'idroid', cursive;
+}
+
+
 /*Variáveis------------*/
 .dark-mode:root{
 
   --colorBackground: #191919;
+  --colorBox: #202020;
+  --colorBox2: #2c2c2c;
+  --colorBox3: #383838;
+
+  --colorTitle: #d4d4d4;
+  --colorText: #9b9b9b;
+  --colorTextStrong: #d4d4d4;
+  
+  --colorCuston: #d4d4d4;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'idroid', cursive;
+}
+
+.dark-mode2:root{
+
+  --colorBackground: #3f3f3f;
   --colorBox: #202020;
   --colorBox2: #2c2c2c;
   --colorBox3: #383838;

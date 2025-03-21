@@ -46,11 +46,28 @@ function removeText() {
 writeText();
 
 
-//darkmode
+//alterar Cor
+function alterarCor(cor){
+    let $html = document.querySelector('html');
+    let modeloDeCor = document.querySelector('#switch');
 
-const $html = document.querySelector('html')
-const $checkbox = document.querySelector('#switch')
+    let valorModeloDeCor= modeloDeCor.value;
+    if(cor=="light"){
+        $html.classList.remove('dark-mode')
+        $html.classList.add('light-mode')       
+    }
 
-$checkbox.addEventListener('change', function(){
-    $html.classList.toggle('dark-mode')
-})
+    if(cor=="dark"){
+        $html.classList.remove('light-mode')
+        $html.classList.add('dark-mode')
+    }
+
+}
+
+
+
+
+
+
+//$checkbox.addEventListener('change', function(){
+  //  
