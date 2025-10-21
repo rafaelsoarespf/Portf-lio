@@ -49,9 +49,7 @@ writeText();
 //alterar Cor
 function alterarCor(cor){
     let $html = document.querySelector('html');
-    let modeloDeCor = document.querySelector('#switch');
 
-    let valorModeloDeCor= modeloDeCor.value;
     if(cor=="light"){
         $html.classList.remove('dark-mode')
         $html.classList.add('light-mode')       
@@ -63,11 +61,3 @@ function alterarCor(cor){
     }
 
 }
-
-
-
-
-
-
-//$checkbox.addEventListener('change', function(){
-  //  

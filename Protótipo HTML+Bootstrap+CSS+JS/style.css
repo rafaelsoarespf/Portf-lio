@@ -3,7 +3,6 @@
 
 /*Variáveis------------*/
 :root{
-
   --colorBackground: #ffffff;
   --colorBox: #f9f9f9;
   --colorBox2: #f0f0f0;
@@ -19,12 +18,8 @@
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-android: 'idroid', cursive;
 }
-
-
-
 
 .light-mode:root{
-
   --colorBackground: #ffffff;
   --colorBox: #f9f9f9;
   --colorBox2: #f0f0f0;
@@ -40,11 +35,9 @@
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-android: 'idroid', cursive;
 }
-
 
 /*Variáveis------------*/
 .dark-mode:root{
-
   --colorBackground: #191919;
   --colorBox: #202020;
   --colorBox2: #2c2c2c;
@@ -62,7 +55,6 @@
 }
 
 .dark-mode2:root{
-
   --colorBackground: #3f3f3f;
   --colorBox: #202020;
   --colorBox2: #2c2c2c;
@@ -84,7 +76,6 @@
     margin: 0;
     padding: 0;
 }
-
 
 /*Body =============================================================================*/
 
@@ -141,6 +132,13 @@ header{
     font-weight: bolder;
   }
 
+  #switch{
+    margin-left: 5px;
+    background-color: #ffffff00;
+    backdrop-filter: blur(50px);
+    color: var(--colorTitle);
+  }
+
 /*Main======================================================================*/
 main{
   padding: 0px 10px 0px 10px;
@@ -150,7 +148,6 @@ main{
 
 section{ 
   color: var(--colorTitle);
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,7 +165,6 @@ main .box{
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 section h1{
@@ -197,7 +193,6 @@ section strong{
 }
 
 #mensagem{
-  
   width: 600px;
 }
 
@@ -218,7 +213,6 @@ section strong{
 
 
 /*Habilidades-------------*/
-
 #box-habilidades .box-habilidades-item{
   margin: 10px 5px;
   border-radius: 10px;
@@ -236,7 +230,6 @@ section strong{
 #box-habilidades .box-habilidades-item{
   background-color: var(--colorBox2) ;
 }
-
 
 /*Projetos-------------*/
 .box-projetos-reais{
@@ -272,6 +265,28 @@ section strong{
 
 .box-projetos-reais p{
   margin-top: 20px;
+}
+
+/*Certificados-------------*/
+
+.box-certificados{
+  margin: 10px 0px 30px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--colorBox2);
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+
+.box-certificados .icon-certificado{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.img-instituicao{
+  width: 32px;
+  border-radius: 5px;
 }
 
 /*Footer-------------*/
