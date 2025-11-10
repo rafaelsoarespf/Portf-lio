@@ -185,6 +185,34 @@ section strong{
   color: var(--colorTextStrong);
 }
 
+.button1{
+  background-color: var(--colorCuston);
+  padding: 6px 12px ;
+  color: var(--colorBox);
+  border-radius: 5px;
+  border: 1px solid var(--colorCuston);
+}
+
+.button1:hover{
+  background-color: var(--colorBox3);
+  border: 1px solid var(--colorBox3);
+  color: var(--colorText);
+}
+
+.button2{
+  background-color: #00000000;
+  padding: 6px 12px;
+  color: var(--colorTitle);
+  border-radius: 5px;
+  border: 1px solid var(--colorCuston);
+}
+
+.button2:hover{
+  background-color: var(--colorCuston);
+  border: 1px solid var(--colorBox);
+  color: var(--colorBox);
+}
+
 /*Apresentação-------------*/
 
 #box-apresentação img#foto{
